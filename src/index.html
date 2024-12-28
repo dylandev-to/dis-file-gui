@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>GUI node-dis-file</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="left">
+    <hr>
+    <div class="inputContainer">
+      <input id="webhook-file" placeholder="Your Webhook" type="text">
+    </div>
+    <hr>
+    <p>Your Files <span id="clearAll" class="small">clear all files</span></p>
+    <div id="files-div"></div>
+  </div>
+  <div class="right">
+    <h1>DisFile</h1>
+    <p id="desc">Welcome to <strong>node-dis-file</strong>, a simple Node.js module for uploading and downloading files
+      using Discord Webhooks</p>
+    <label id="getFile" for="fileInput" class="file-label">Click here to select a file</label>
+    <p id="selected-p"></p>
+    <button id="sendButton">Upload File</button>
+    <progress id="progressBar" value="0" max="100"></progress>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
