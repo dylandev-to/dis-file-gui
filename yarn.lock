@@ -1901,9 +1901,10 @@ node-api-version@^0.2.0:
   dependencies:
     semver "^7.3.5"
 
-"node-dis-file@github:dylandev-to/node-dis-file":
-  version "1.0.0"
-  resolved "git+ssh://git@github.com/dylandev-to/node-dis-file.git#36c345cfb7464fd56af216453e4e66c69eb786d7"
+node-dis-file@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/node-dis-file/-/node-dis-file-1.0.1.tgz"
+  integrity sha512-jpZiIF0FfXx50BDjGaedvJfbie1GqSQbMvHkop/jIrwzrP3P9SGUzffGKT+Wn6X92VfnqbNxWsibrTl5Cwb4qg==
   dependencies:
     axios "^1.7.9"
 
